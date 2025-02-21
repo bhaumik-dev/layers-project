@@ -1,0 +1,18 @@
+export default function FeatureCard(props: {
+    title: string;
+    description: string;
+    children?: React.ReactNode;
+}) {
+    const { title, description, children } = props;
+    return (
+        <div>
+            <div>
+                <div>{children}</div>
+                <div>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                </div>
+            </div>
+        </div>
+    );
+}
