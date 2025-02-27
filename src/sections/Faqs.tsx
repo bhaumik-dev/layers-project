@@ -37,14 +37,16 @@ export default function Faqs() {
                     Questions? We've got{" "}
                     <span className="text-lime-400">answers</span>
                 </h2>
-                <div className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">
+                <div className="mt-12 flex flex-col gap-6 max-w-xl lg:max-w-2xl mx-auto">
                     {faqs.map((faq, faqIndex) => (
                         <div
                             key={faq.question}
                             className="bg-neutral-900 rounded-2xl border border-white/10 p-6"
                         >
                             <div className="flex justify-between items-center">
-                                <h3 className="font-medium">{faq.question}</h3>
+                                <h3 className="text-white font-medium">
+                                    {faq.question}
+                                </h3>
                                 <svg
                                     viewBox="0 0 32 32"
                                     version="1.1"
