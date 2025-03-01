@@ -16,7 +16,7 @@ const navLinks = [
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <section className="py-4 lg:py-8 fixed w-full top-0 z-50">
+        <section className="py-4 lg:py-8 fixed w-full left-0 top-0 z-50">
             <div className="container max-w-5xl">
                 <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">
                     <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
