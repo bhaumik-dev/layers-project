@@ -4,7 +4,7 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 import { Fragment } from "react";
-import { reverse } from "dns";
+// import { reverse } from "dns";
 
 export { type IntegrationsType } from "@/sections/Integrations";
 
