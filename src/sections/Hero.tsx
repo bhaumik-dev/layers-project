@@ -52,7 +52,16 @@ export default function Hero() {
                 { duration: 0.5 },
             ],
         ]);
-    }, []);
+    }, [
+        leftDesignAnimate,
+        leftDesignScope,
+        leftPointerAnimate,
+        leftPointerScope,
+        rightDesignAnimate,
+        rightDesignScope,
+        rightPointerAnimate,
+        rightPointerScope,
+    ]);
     return (
         <section
             className="pt-32 pb-24 md:pt-40 md:pb-24 lg:pt-48 lg:pb-32 overflow-x-clip"
